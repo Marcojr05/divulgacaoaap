@@ -8,7 +8,7 @@
 
 
 body{
-   background-color: rgb(238, 233, 233);
+   background-color: rgb(235, 230, 230);
 }
 
 header{
@@ -42,7 +42,7 @@ nav>a:hover{
 .divulgacao{
    margin: 20px 0px 0px 0px;
    padding: 10px;
-   background-color: rgb(26, 25, 25);
+   background-color: rgb(65, 63, 63);
    color: rgb(238, 233, 233);
 }
 
@@ -62,7 +62,7 @@ nav>a:hover{
 }
 
 .funcao{
-   background-color: rgb(26, 25, 25);
+   background-color: rgb(46, 44, 44);
 }
 
 .funcao>article{
@@ -96,7 +96,7 @@ footer article {
 
 footer input{
    display:flex;
-    display: inline-block; */
+   display: inline-block; */
    height: 40px;
    width:500px
    margin: 8px;
@@ -117,7 +117,7 @@ footer{
 footer>section>article{
    width: 30%;
    display: inline-block;
-   margin: 0px 5px 10px 10px;  
+   margin: 0px 5px 10px 10px;
 }
 
 .email{
@@ -126,4 +126,28 @@ footer>section>article{
 
 .email>input{
    border-radius: 5px ;
+}
+
+#ceo {
+   background-color: rgb(32, 32, 32);
+   color: rgb(238, 233, 233);
+   display: inline-block;
+   text-align: center;
+
+}
+
+#ceo1{
+   float: left;
+   width: 48%;
+   padding: 0px 10px 20px 0px;
+}
+
+#ceo2 {
+   float: right;
+   width: 48%;
+   padding: 20px;
+}
+
+.imagemceo{
+   padding: 20px 20px 20px 20px ;
 }
